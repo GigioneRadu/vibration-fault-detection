@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Generated monitoring output
+data/processed/bearing_monitoring_history.csv
+
+# Optional large/raw local data
+data/raw/
+
+# Local model experiments / temporary model files
+models/*.tmp
+models/*.bak
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# uv / Python version files
+# Keep uv.lock and .python-version in Git for reproducibility.
+
+
+# Intermediate synthetic datasets
+data/processed/synthetic_bearing_dataset.csv
+data/processed/synthetic_bearing_dataset_v2.csv
+data/processed/synthetic_bearing_multiclass.csv
+data/processed/synthetic_bearing_multiclass_v2.csv
+
+# Intermediate experiment figures
+figures/baseline_*
+figures/v2_*
+figures/multiclass_v2_*
